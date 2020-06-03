@@ -1,0 +1,16 @@
+PODS:
+  - YoutubeKit (0.5.0)
+
+DEPENDENCIES:
+  - YoutubeKit (from `../`)
+
+EXTERNAL SOURCES:
+  YoutubeKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YoutubeKit: 9f66eba839211158f2aac7ad3833593bd56fa8f9
+
+PODFILE CHECKSUM: 292ad87021af96ac7d37bfb29bd9c3f6a22956fe
+
+COCOAPODS: 1.8.4
