@@ -16,7 +16,8 @@ class ProblemViewController: UIViewController {
   private let videoCellStatusLabel_1 = UILabel()
   private let videoCellStatusLabel_2 = UILabel()
   private var childCellTypes: [VideoListViewController.CellType] = []
-  private var child: VideoListViewController!
+  private(set) var child: VideoListViewController!
+  weak var delegate: VideoListViewControllerDelegate?
   
   private var isVideoCell_1_Visible: Bool = false {
     didSet {
@@ -127,6 +128,7 @@ extension ProblemViewController: VideoListViewControllerDelegate {
     default:
       break
     }
+    delegate?.controller(controller, willDisplay: cell, forItemAt: indexPath)
   }
   
   func controller(_ controller: VideoListViewController, didEndDisplaying cell: VideoListViewCell, forItemAt indexPath: IndexPath) {
@@ -138,5 +140,6 @@ extension ProblemViewController: VideoListViewControllerDelegate {
     default:
       break
     }
+    delegate?.controller(controller, didEndDisplaying: cell, forItemAt: indexPath)
   }
 }

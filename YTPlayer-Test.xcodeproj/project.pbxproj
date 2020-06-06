@@ -19,6 +19,7 @@
 		2B31D9AC24869D1F0062E875 /* Cartfile.resolved in Resources */ = {isa = PBXBuildFile; fileRef = 2B31D9AB24869D1F0062E875 /* Cartfile.resolved */; };
 		2B31D9B02486A8A60062E875 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B31D9AF2486A8A60062E875 /* ViewController.swift */; };
 		2B31D9B22486AA3D0062E875 /* ProblemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B31D9B12486AA3D0062E875 /* ProblemViewController.swift */; };
+		2B31D9B4248B86100062E875 /* WorkaroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B31D9B3248B860F0062E875 /* WorkaroundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,7 @@
 		2B31D9AB24869D1F0062E875 /* Cartfile.resolved */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
 		2B31D9AF2486A8A60062E875 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2B31D9B12486AA3D0062E875 /* ProblemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemViewController.swift; sourceTree = "<group>"; };
+		2B31D9B3248B860F0062E875 /* WorkaroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkaroundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				2B31D98D24853AFB0062E875 /* AppDelegate.swift */,
 				2B31D9AF2486A8A60062E875 /* ViewController.swift */,
 				2B31D9B12486AA3D0062E875 /* ProblemViewController.swift */,
+				2B31D9B3248B860F0062E875 /* WorkaroundViewController.swift */,
 				2B31D99124853AFB0062E875 /* VideoListViewController.swift */,
 				2B31D9A12485485E0062E875 /* VideoListViewCell.swift */,
 				2B31D99324853AFB0062E875 /* Main.storyboard */,
@@ -205,6 +208,7 @@
 			files = (
 				2B31D99224853AFB0062E875 /* VideoListViewController.swift in Sources */,
 				2B31D9A22485485E0062E875 /* VideoListViewCell.swift in Sources */,
+				2B31D9B4248B86100062E875 /* WorkaroundViewController.swift in Sources */,
 				2B31D9B02486A8A60062E875 /* ViewController.swift in Sources */,
 				2B31D98E24853AFB0062E875 /* AppDelegate.swift in Sources */,
 				2B31D9B22486AA3D0062E875 /* ProblemViewController.swift in Sources */,

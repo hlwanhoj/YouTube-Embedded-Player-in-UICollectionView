@@ -27,7 +27,7 @@
         <!--Workaround-->
         <scene sceneID="ytv-a9-7GP">
             <objects>
-                <viewController title="Workaround" id="mKs-ga-ldu" customClass="ViewController" customModule="YTPlayer_Test" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Workaround" id="mKs-ga-ldu" customClass="WorkaroundViewController" customModule="YTPlayer_Test" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vte-K3-mGP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

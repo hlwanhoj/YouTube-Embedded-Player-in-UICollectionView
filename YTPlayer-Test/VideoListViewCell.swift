@@ -21,16 +21,24 @@ class VideoListViewCell: UICollectionViewCell {
     super.init(frame: frame)
     
     backgroundColor = .systemGray
-    playerView.frame = contentView.bounds
-    playerView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
     playerView.delegate = self
-    contentView.addSubview(playerView)
+    bindVideoPlayerView()
   }
   
   required init?(coder: NSCoder) {
     fatalError("init(coder:) has not been implemented")
   }
   
+  func bindVideoPlayerView() {
+    playerView.frame = contentView.bounds
+    playerView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+    contentView.addSubview(playerView)
+  }
+
+  func unbindVideoPlayerView() {
+    playerView.removeFromSuperview()
+  }
+
   func loadPlayerWithVideoId(_ videoId: String) {
     self.videoId = videoId
     playerView.setPlayerParameters([
