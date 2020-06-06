@@ -12,6 +12,7 @@ private class DisplayLinkHandler {
   var didStep: ((CADisplayLink) -> Void)?
 
   init() {
+    // CADisplayLink would retain the target
     let displayLink = CADisplayLink(target: self, selector: #selector(displayDidStep(dlink:)))
     displayLink.add(to: .main, forMode: .common)
     self.displayLink = displayLink
