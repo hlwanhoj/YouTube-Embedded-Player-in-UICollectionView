@@ -1,5 +1,5 @@
 # YouTube-Embedded-Player-in-UICollectionView
-To demonstrate the pitfall when using YouTube Embedded Player in UICollectionView
+To demonstrate the pitfall when using YouTube Embedded Player in `UICollectionView`
 
 Assuming the view hierarchy is like: 
 ```
@@ -13,4 +13,4 @@ Once the user interacts with the video player (like play, pause), delegate event
 
 ![](https://miro.medium.com/max/640/1*iBnBc33VzPEjdzpE0Xh-og.gif)
 
-This project is to demonstrate the problem and the workaround implemented using CADisplayLink.
+This project is to demonstrate the problem and the workaround implemented using `CADisplayLink`.
